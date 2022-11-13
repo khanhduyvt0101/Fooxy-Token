@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Foxxy token smart contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Technology
+- Hardhat framework
+- Typescript
 
-Try running some of the following tasks:
+## Smart contract
+- Foxxy.sol: Token
+- Vault.sol: Vault of Token
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+## How to run
+- npm i --save -dev
+- Create .env file and config API key and Private Key
+- yarn compile
+- yarn test
